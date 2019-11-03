@@ -1,0 +1,48 @@
+@import './mobile-320.scss';
+@import './animation.scss';
+body {
+    font-family: sans-serif;
+}
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+
+.nav-btn-free-account {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lightText {
+    font-weight: 300;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+
